@@ -52,7 +52,7 @@ export default function Home() {
               <div>
                 <FormField
                   name="name"
-                  // control={form.control}
+                  control={form.control}
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel>Name</FormLabel>
@@ -71,7 +71,7 @@ export default function Home() {
               <div>
                 <FormField
                   name="email"
-                  // control={form.control}
+                  control={form.control}
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel>Email</FormLabel>
@@ -90,7 +90,7 @@ export default function Home() {
               <div>
                 <FormField
                   name="password"
-                  // control={form.control}
+                  control={form.control}
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel>Password</FormLabel>
