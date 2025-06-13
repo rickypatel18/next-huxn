@@ -1,7 +1,24 @@
 // import MotiionHooks from "./components/MotiionHooks";
 // import RangeStyle from "./components/RangeStyle";
 
-import Bg from "./components/Bg";
+import StaggerList from "./components/StaggerList";
+
+// import GestureGallery from "./components/GestureGallery";
+
+// import LongPress from "./components/LongPress";
+// import Rotateondrag from "./components/Rotateondrag";
+
+// import Draggable from "./components/Draggable";
+
+// import Swapable from "./components/Swapable";
+// import ToggleSwitch from "./components/ToggleSwitch";
+
+// import ToolTip from "./components/ToolTip";
+
+// import FadeIn from "./components/FadeIn";
+// import NavigationMenu from "./components/NavigationMenu";
+
+// import Bg from "./components/Bg";
 // import Pulsing from "./components/Pulsing";
 // import Text from "./components/Text";
 // import Wave from "./components/Wave";
@@ -22,12 +39,10 @@ import Bg from "./components/Bg";
 const App = () => {
   return (
     <div>
-      {/* <MotiionHooks />
-       */}
+      {/* <MotiionHooks />*/}
       {/* <RangeStyle/> */}
       {/* <DraggableBox /> */}
-      {/* <Animatedcard/>
-       */}
+      {/* <Animatedcard/> */}
       {/* <Scrollanim /> */}
       {/* <Fade /> */}
       {/* <Sidebar /> */}
@@ -39,7 +54,17 @@ const App = () => {
       {/* <Pulsing /> */}
       {/* <Text /> */}
       {/* <Wave/> */}
-      <Bg/>
+      {/* <Bg/> */}
+      {/* <FadeIn/> */}
+      {/* <NavigationMenu/> */}
+      {/* <ToolTip /> */}
+      {/* <ToggleSwitch /> */}
+      {/* <Swapable/> */}
+      {/* <Draggable/> */}
+      {/* <Rotateondrag/> */}
+      {/* <LongPress/> */}
+      {/* <GestureGallery/> */}
+      <StaggerList/>
     </div>
   );
 };
