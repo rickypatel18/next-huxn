@@ -1,4 +1,5 @@
-import RecipeApp from "./store/components/RecipeApp";
+import RecipeApp from "./components/RecipeApp";
+
 
 const App = () => {
   return (

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useStore } from "../useStore";
+import { useStore } from "../store/useStore";
 
 interface Recipe {
   id: number;
